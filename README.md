@@ -9,3 +9,5 @@ Designed to complement the audio ADC boards such as the Teensy Audio Board, this
 - Independent +48V phantom power for each mic channel
 - THAT1512 mic preamp for optimum performance
 - 20 & 40dB switched gain mic channel + 0-20dB gain control (overall gain 20-60dB)
+
+Attached board files are in Eagle 9.0 format
