@@ -18276,9 +18276,10 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&gt; Data sheet
 <sheets>
 <sheet>
 <plain>
-<text x="-58.42" y="193.04" size="3.81" layer="91">Combo Input Board
+<text x="-73.914" y="180.086" size="3.81" layer="91">Combo Input Board
 Phantom power
-THAT1512</text>
+THAT1512
+(C) 2020 RWP</text>
 <text x="20.32" y="45.72" size="1.778" layer="91">AV = switched 10/100
 (20 - 40 dB)
 Max input = 0/-20dBv</text>
@@ -18286,12 +18287,17 @@ Max input = 0/-20dBv</text>
 ALPS SPUN
 C&amp;K F2UEE  
 4 x 6 mm pin spacing</text>
-<text x="86.614" y="82.042" size="1.778" layer="91">AV = 1 - 11 
+<text x="93.218" y="122.936" size="1.778" layer="91">AV = 1 - 11 
 (0 - 22 dB)</text>
-<text x="-16.256" y="89.154" size="1.778" layer="91">D1-4: BAV170VL very low reverse current diodes. 
+<text x="-16.256" y="89.154" size="1.778" layer="91">D1-4: BAV170VL very low reverse current twin diodes. 
 may be substituted by similar components (Ir &lt;= 100nA,  Vr &gt; 50V), 
 or with BAT54S twin (half bridge) Schottky diodes 
 (better protection, slightly higher noise).</text>
+<text x="-15.24" y="177.8" size="1.778" layer="91">TT Corp switch pots - SPST push on-off
+P901S series 5K</text>
+<text x="-73.66" y="2.54" size="1.778" layer="91">SENSE 1 &amp; 2 require inputs with pullup resistors.
+
+LEDs draw 5mA at 3.3V</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="0" y="20.32" smashed="yes" rot="R90">
@@ -18349,9 +18355,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="97.3074" y="15.875" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="101.1174" y="12.827" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="139.7" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.208" y="16.383" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="144.5895" y="10.414" size="1.778" layer="96" rot="R180"/>
+<instance part="C3" gate="G$1" x="137.16" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="137.668" y="16.383" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="142.0495" y="10.414" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="S1" gate="G$1" x="180.34" y="27.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="171.45" y="32.512" size="1.778" layer="95" rot="MR0" align="center-left"/>
@@ -18391,9 +18397,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="-43.2435" y="138.938" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-43.561" y="135.636" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C5" gate="G$1" x="144.78" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="149.3774" y="64.643" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="156.9974" y="62.103" size="1.778" layer="96" rot="R180"/>
+<instance part="C5" gate="G$1" x="132.08" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="136.6774" y="64.643" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="144.2974" y="62.103" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C6" gate="G$1" x="147.32" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.9174" y="18.923" size="1.778" layer="95" rot="R180"/>
@@ -18418,20 +18424,20 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="-9.4234" y="151.638" size="1.778" layer="95"/>
 </instance>
 <instance part="R21" gate="G$1" x="-30.734" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="-28.448" y="81.9785" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-29.464" y="76.327" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-28.194" y="86.2965" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-29.464" y="82.677" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R22" gate="G$1" x="-30.48" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="-28.448" y="64.4525" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-28.702" y="58.547" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-28.702" y="58.6105" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-29.464" y="56.261" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R23" gate="G$1" x="-25.4" y="149.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="-24.13" y="153.3525" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-24.13" y="148.463" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-23.876" y="156.9085" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-24.892" y="154.051" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R24" gate="G$1" x="-25.4" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="-22.86" y="133.0325" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-23.876" y="127.889" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-23.368" y="127.6985" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-24.13" y="122.809" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C7" gate="G$1" x="-38.1" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="-37.465" y="65.5574" size="1.778" layer="95" rot="R180"/>
@@ -18452,12 +18458,8 @@ or with BAT54S twin (half bridge) Schottky diodes
 <instance part="P+5" gate="1" x="195.58" y="86.36" smashed="yes">
 <attribute name="VALUE" x="198.12" y="90.678" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="AGND3" gate="VR1" x="-55.88" y="45.72" smashed="yes">
-<attribute name="VALUE" x="-58.42" y="40.64" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="AGND4" gate="VR1" x="-55.88" y="114.3" smashed="yes">
-<attribute name="VALUE" x="-58.42" y="109.22" size="1.778" layer="96" rot="R90"/>
-</instance>
+<instance part="AGND3" gate="VR1" x="-55.88" y="45.72" smashed="yes"/>
+<instance part="AGND4" gate="VR1" x="-55.88" y="116.84" smashed="yes"/>
 <instance part="O_LED1" gate="G$1" x="-38.1" y="22.86" smashed="yes">
 <attribute name="NAME" x="-42.164" y="15.748" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-32.385" y="18.288" size="1.778" layer="96" rot="R90"/>
@@ -18507,11 +18509,11 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="VALUE" x="42.545" y="60.452" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U3" gate="A" x="101.6" y="106.68" smashed="yes">
-<attribute name="NAME" x="103.632" y="111.125" size="1.778" layer="95"/>
-<attribute name="VALUE" x="89.662" y="118.618" size="1.778" layer="96"/>
+<attribute name="NAME" x="105.664" y="117.729" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.918" y="114.808" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="B" x="99.06" y="170.18" smashed="yes">
-<attribute name="NAME" x="101.6" y="173.355" size="1.778" layer="95"/>
+<attribute name="NAME" x="96.266" y="180.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="177.8" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="P" x="101.6" y="106.68" smashed="yes"/>
@@ -18530,16 +18532,12 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="49.149" y="177.0634" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="48.133" y="170.2054" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C19" gate="G$1" x="50.8" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.705" y="112.5474" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="52.705" y="109.2454" size="1.778" layer="96" rot="R180"/>
+<instance part="C19" gate="G$1" x="50.8" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.705" y="115.0874" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="52.705" y="111.7854" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="AGND2" gate="VR1" x="109.22" y="78.74" smashed="yes">
-<attribute name="VALUE" x="111.76" y="76.2" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="AGND5" gate="VR1" x="106.68" y="142.24" smashed="yes">
-<attribute name="VALUE" x="109.22" y="139.7" size="1.778" layer="96" rot="R180"/>
-</instance>
+<instance part="AGND2" gate="VR1" x="109.22" y="78.74" smashed="yes"/>
+<instance part="AGND5" gate="VR1" x="106.68" y="142.24" smashed="yes"/>
 <instance part="R5" gate="G$1" x="38.608" y="144.78" smashed="yes">
 <attribute name="NAME" x="33.274" y="147.1295" size="1.778" layer="95"/>
 <attribute name="VALUE" x="37.338" y="147.193" size="1.778" layer="96"/>
@@ -18548,23 +18546,21 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="39.878" y="131.699" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="42.164" y="128.905" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="13.208" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.0015" y="159.258" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.811" y="155.702" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="10.668" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.1275" y="144.272" size="1.778" layer="95"/>
+<attribute name="VALUE" x="4.445" y="141.732" size="1.778" layer="96"/>
 </instance>
-<instance part="R25" gate="G$1" x="13.208" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.4295" y="133.35" size="1.778" layer="95"/>
-<attribute name="VALUE" x="12.573" y="126.238" size="1.778" layer="96"/>
+<instance part="R25" gate="G$1" x="10.668" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.8895" y="133.35" size="1.778" layer="95"/>
+<attribute name="VALUE" x="5.207" y="130.81" size="1.778" layer="96"/>
 </instance>
-<instance part="R26" gate="G$1" x="5.588" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="-0.6985" y="121.412" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-1.143" y="118.872" size="1.778" layer="96"/>
+<instance part="R26" gate="G$1" x="3.048" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.6675" y="121.666" size="1.778" layer="95"/>
+<attribute name="VALUE" x="6.477" y="118.872" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND6" gate="VR1" x="-38.1" y="15.24" smashed="yes">
-<attribute name="VALUE" x="-10.922" y="16.51" size="1.778" layer="96" rot="R180"/>
-</instance>
+<instance part="AGND6" gate="VR1" x="-38.1" y="15.24" smashed="yes"/>
 <instance part="P+7" gate="1" x="0" y="30.48" smashed="yes">
-<attribute name="VALUE" x="-2.032" y="30.48" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="0.508" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="AGND1" gate="VR1" x="71.12" y="152.4" smashed="yes">
 <attribute name="VALUE" x="73.66" y="149.86" size="1.778" layer="96" rot="R180"/>
@@ -18576,29 +18572,29 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="59.182" y="-11.811" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="59.4995" y="-14.732" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P-5" gate="1" x="50.8" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="58.42" y="-20.32" size="1.778" layer="96" rot="R180"/>
+<instance part="P-5" gate="1" x="81.28" y="-12.7" smashed="yes">
+<attribute name="VALUE" x="88.9" y="-12.7" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+9" gate="1" x="50.8" y="10.16" smashed="yes">
-<attribute name="VALUE" x="48.26" y="12.7" size="1.778" layer="96" rot="R180"/>
+<instance part="P+9" gate="1" x="81.28" y="2.54" smashed="yes">
+<attribute name="VALUE" x="78.74" y="5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+2" gate="1" x="101.6" y="116.84" smashed="yes">
-<attribute name="VALUE" x="99.06" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="101.6" y="119.38" smashed="yes">
+<attribute name="VALUE" x="99.06" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+6" gate="1" x="58.42" y="86.36" smashed="yes">
-<attribute name="VALUE" x="67.056" y="86.614" size="1.778" layer="96" rot="R180"/>
+<instance part="P+6" gate="1" x="58.42" y="88.9" smashed="yes">
+<attribute name="VALUE" x="67.056" y="89.154" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+8" gate="1" x="58.42" y="154.94" smashed="yes">
-<attribute name="VALUE" x="60.706" y="159.004" size="1.778" layer="96" rot="R180"/>
+<instance part="P+8" gate="1" x="58.42" y="157.48" smashed="yes">
+<attribute name="VALUE" x="60.706" y="161.544" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P-1" gate="1" x="58.42" y="55.88" smashed="yes">
-<attribute name="VALUE" x="62.23" y="54.102" size="1.778" layer="96" rot="R180"/>
+<instance part="P-1" gate="1" x="58.42" y="50.8" smashed="yes">
+<attribute name="VALUE" x="62.23" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P-2" gate="1" x="101.6" y="96.52" smashed="yes">
-<attribute name="VALUE" x="99.06" y="93.98" size="1.778" layer="96" rot="R90"/>
+<instance part="P-2" gate="1" x="101.6" y="87.884" smashed="yes">
+<attribute name="VALUE" x="99.06" y="85.344" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P-4" gate="1" x="58.42" y="124.46" smashed="yes">
-<attribute name="VALUE" x="61.976" y="122.936" size="1.778" layer="96" rot="R180"/>
+<instance part="P-4" gate="1" x="58.42" y="121.92" smashed="yes">
+<attribute name="VALUE" x="61.976" y="120.396" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C22" gate="G$1" x="66.04" y="-7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.802" y="-11.811" size="1.778" layer="95" rot="R180"/>
@@ -18630,9 +18626,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="9.906" y="15.621" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="11.4935" y="12.446" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C15" gate="G$1" x="109.22" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="109.728" y="16.383" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="113.0935" y="10.668" size="1.778" layer="96" rot="R180"/>
+<instance part="C15" gate="G$1" x="106.68" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.188" y="16.383" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="110.5535" y="10.668" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C16" gate="G$1" x="121.92" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="122.428" y="16.383" size="1.778" layer="95" rot="R180"/>
@@ -18646,9 +18642,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="-19.812" y="143.383" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-18.9865" y="137.668" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="AGND8" gate="VR1" x="165.1" y="40.64" smashed="yes">
-<attribute name="VALUE" x="171.958" y="44.45" size="1.778" layer="96" rot="R180"/>
-</instance>
+<instance part="AGND8" gate="VR1" x="159.766" y="40.64" smashed="yes"/>
 <instance part="PHANTOM" gate="G$1" x="99.06" y="35.56" smashed="yes">
 <attribute name="VALUE" x="96.52" y="30.734" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="96.52" y="41.148" size="1.778" layer="95" font="vector"/>
@@ -18661,9 +18655,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <attribute name="NAME" x="13.97" y="200.66" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="13.97" y="198.12" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="33.528" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.8615" y="141.478" size="1.778" layer="95"/>
-<attribute name="VALUE" x="34.925" y="138.43" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="30.988" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="32.3215" y="141.478" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.385" y="138.43" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="33.528" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.8615" y="72.898" size="1.778" layer="95"/>
@@ -18699,13 +18693,13 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="-55.88" y1="175.26" x2="-55.88" y2="170.18" width="0.1524" layer="91"/>
 <junction x="-55.88" y="149.86"/>
 <wire x1="-55.88" y1="170.18" x2="-55.88" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="116.84" x2="-55.88" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="119.38" x2="-55.88" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="AGND4" gate="VR1" pin="AGND"/>
 <pinref part="IN2" gate="G$1" pin="R"/>
 <wire x1="-60.96" y1="170.18" x2="-55.88" y2="170.18" width="0.1524" layer="91"/>
 <junction x="-55.88" y="170.18"/>
-<wire x1="-55.88" y1="116.84" x2="5.588" y2="116.84" width="0.1524" layer="91"/>
-<junction x="-55.88" y="116.84"/>
+<wire x1="-55.88" y1="119.38" x2="3.048" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-55.88" y="119.38"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -18738,11 +18732,10 @@ or with BAT54S twin (half bridge) Schottky diodes
 <junction x="-38.1" y="17.78"/>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
 <label x="-63.5" y="18.034" size="1.778" layer="95"/>
-<label x="55.88" y="15.24" size="1.778" layer="95"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="17.78" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="17.78" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="17.78" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="17.78" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="P_LED1" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="5.08" x2="182.88" y2="5.08" width="0.1524" layer="91"/>
@@ -18753,18 +18746,18 @@ or with BAT54S twin (half bridge) Schottky diodes
 <pinref part="C6" gate="G$1" pin="-"/>
 <junction x="147.32" y="17.78"/>
 <pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="144.78" y1="66.04" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
-<junction x="144.78" y="17.78"/>
-<wire x1="96.52" y1="17.78" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="66.04" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
+<junction x="132.08" y="17.78"/>
+<wire x1="96.52" y1="17.78" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
 <junction x="96.52" y="17.78"/>
-<junction x="139.7" y="17.78"/>
+<junction x="137.16" y="17.78"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <junction x="66.04" y="-5.08"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <junction x="66.04" y="-5.08"/>
-<wire x1="109.22" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="17.78" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="17.78" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-5.08" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <junction x="58.42" y="-5.08"/>
@@ -18788,8 +18781,8 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="10.16" y1="20.32" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
 <junction x="10.16" y="17.78"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="20.32" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
-<junction x="109.22" y="17.78"/>
+<wire x1="106.68" y1="20.32" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
+<junction x="106.68" y="17.78"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="17.78" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
 <junction x="121.92" y="17.78"/>
@@ -18812,15 +18805,14 @@ or with BAT54S twin (half bridge) Schottky diodes
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="27.94" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="43.18" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="66.04" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="27.94" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="43.18" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="AGND8" gate="VR1" pin="AGND"/>
-<wire x1="165.1" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
-<junction x="160.02" y="43.18"/>
+<wire x1="159.766" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
+<junction x="154.94" y="43.18"/>
 </segment>
 <segment>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
@@ -18857,7 +18849,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 </net>
 <net name="PRE_OUT1" class="0">
 <segment>
-<label x="74.676" y="68.58" size="1.778" layer="95"/>
+<label x="70.866" y="98.552" size="1.778" layer="95"/>
 <wire x1="78.74" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="71.12" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="101.6" x2="-50.8" y2="101.6" width="0.1524" layer="91"/>
@@ -18869,7 +18861,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 </net>
 <net name="PRE-OUT2" class="0">
 <segment>
-<label x="77.724" y="136.652" size="1.778" layer="95"/>
+<label x="67.564" y="165.1" size="1.778" layer="95"/>
 <wire x1="81.28" y1="167.64" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="167.64" x2="-45.72" y2="167.64" width="0.1524" layer="91"/>
@@ -18894,11 +18886,11 @@ or with BAT54S twin (half bridge) Schottky diodes
 </net>
 <net name="TIP1" class="0">
 <segment>
-<wire x1="-53.34" y1="104.14" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="106.68" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IN1" gate="G$1" pin="T"/>
 <wire x1="-53.34" y1="88.9" x2="-60.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="-48.006" y="104.394" size="1.778" layer="95"/>
-<wire x1="48.26" y1="104.14" x2="-53.34" y2="104.14" width="0.1524" layer="91"/>
+<label x="-49.022" y="104.394" size="1.778" layer="95"/>
+<wire x1="48.26" y1="106.68" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -18950,24 +18942,24 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="91.44" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 <label x="80.518" y="26.416" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="96.52" y1="25.4" x2="109.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="25.4" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
 <junction x="96.52" y="25.4"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
-<junction x="139.7" y="25.4"/>
-<wire x1="139.7" y1="81.28" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="137.16" y="25.4"/>
+<wire x1="137.16" y1="81.28" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<junction x="109.22" y="25.4"/>
+<junction x="106.68" y="25.4"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <junction x="121.92" y="25.4"/>
-<wire x1="139.7" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="22.86" x2="160.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="3"/>
-<wire x1="157.48" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="PHANTOM" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
@@ -19000,9 +18992,10 @@ or with BAT54S twin (half bridge) Schottky diodes
 <pinref part="L3" gate="G$1" pin="2"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <label x="118.872" y="71.882" size="1.778" layer="95"/>
-<wire x1="144.78" y1="83.82" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
-<junction x="144.78" y="71.12"/>
+<wire x1="144.78" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+<junction x="132.08" y="71.12"/>
 </segment>
 </net>
 <net name="PHANTOM1" class="0">
@@ -19011,9 +19004,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="-44.45" y1="71.12" x2="-44.45" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="-44.45" y1="88.9" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="88.9" x2="-30.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="88.9" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 <junction x="-40.64" y="88.9"/>
-<label x="-41.656" y="89.916" size="1.778" layer="95"/>
+<label x="-35.306" y="89.916" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
@@ -19067,12 +19060,12 @@ or with BAT54S twin (half bridge) Schottky diodes
 <pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="D4" gate="A" pin="AC"/>
 <wire x1="-17.78" y1="149.86" x2="-2.54" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="149.86" x2="13.208" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="149.86" x2="10.668" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN+"/>
-<wire x1="13.208" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="10.668" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="147.32" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<junction x="13.208" y="149.86"/>
+<junction x="10.668" y="149.86"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="142.24" x2="-17.78" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="149.86" x2="-20.32" y2="149.86" width="0.1524" layer="91"/>
@@ -19089,9 +19082,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <segment>
 <pinref part="IN1" gate="G$1" pin="3"/>
 <pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="-60.96" y1="76.2" x2="-50.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="76.2" x2="-50.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="60.96" x2="-44.45" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="76.2" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="76.2" x2="-53.34" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="60.96" x2="-44.45" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-44.45" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-44.45" y="60.96"/>
@@ -19196,9 +19189,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <segment>
 <pinref part="IN1" gate="G$1" pin="SS"/>
 <wire x1="-60.96" y1="96.52" x2="-58.42" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="96.52" x2="-55.88" y2="107.95" width="0.1524" layer="91"/>
-<label x="-47.752" y="108.458" size="1.778" layer="95"/>
-<wire x1="-55.88" y1="107.95" x2="-38.1" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="96.52" x2="-58.42" y2="109.728" width="0.1524" layer="91"/>
+<label x="-49.022" y="110.236" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="109.728" x2="-40.64" y2="109.728" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-63.5" y="27.94" size="1.778" layer="95"/>
@@ -19243,10 +19236,10 @@ or with BAT54S twin (half bridge) Schottky diodes
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="5.588" y1="127" x2="5.588" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="5.588" y1="139.7" x2="13.208" y2="139.7" width="0.1524" layer="91"/>
-<junction x="5.588" y="139.7"/>
-<junction x="13.208" y="139.7"/>
+<wire x1="3.048" y1="129.54" x2="3.048" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="3.048" y1="139.7" x2="10.668" y2="139.7" width="0.1524" layer="91"/>
+<junction x="3.048" y="139.7"/>
+<junction x="10.668" y="139.7"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -19279,32 +19272,31 @@ or with BAT54S twin (half bridge) Schottky diodes
 <segment>
 <pinref part="U3" gate="P" pin="V+"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
+<wire x1="101.6" y1="116.84" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="V-"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
-<wire x1="53.34" y1="86.36" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<junction x="58.42" y="83.82"/>
+<junction x="58.42" y="86.36"/>
 <pinref part="D2" gate="A" pin="C"/>
 <wire x1="-12.7" y1="66.04" x2="-12.7" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="D1" gate="A" pin="C"/>
 <wire x1="-12.7" y1="86.36" x2="-5.334" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="86.36" x2="-5.334" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="-5.334" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-5.334" y="86.36"/>
+<wire x1="58.42" y1="86.36" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V-"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<wire x1="53.34" y1="154.94" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
-<junction x="58.42" y="152.4"/>
+<junction x="58.42" y="154.94"/>
 <pinref part="D3" gate="A" pin="C"/>
 <wire x1="-12.7" y1="134.62" x2="-12.7" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="D4" gate="A" pin="C"/>
 <wire x1="-12.7" y1="154.94" x2="-5.08" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-5.08" y="154.94"/>
+<wire x1="58.42" y1="154.94" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L4" gate="G$1" pin="1"/>
@@ -19321,7 +19313,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 <pinref part="P+9" gate="1" pin="+12V"/>
 <wire x1="58.42" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="0" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
 <junction x="66.04" y="0"/>
 </segment>
 </net>
@@ -19329,9 +19321,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 <segment>
 <pinref part="U1" gate="G$1" pin="V+"/>
 <pinref part="P-1" gate="1" pin="-12V"/>
-<wire x1="58.42" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="58.42" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<junction x="58.42" y="58.42"/>
+<junction x="58.42" y="53.34"/>
 <pinref part="D2" gate="A" pin="A"/>
 <wire x1="-12.7" y1="55.88" x2="-12.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="53.34" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
@@ -19340,28 +19330,30 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="-5.08" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-5.334" y1="76.2" x2="-5.334" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-5.08" y="53.34"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="P" pin="V-"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
+<wire x1="101.6" y1="90.424" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
 <pinref part="P-4" gate="1" pin="-12V"/>
 <wire x1="-12.7" y1="124.46" x2="-5.08" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="124.46" x2="53.34" y2="127" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<junction x="58.42" y="127"/>
+<wire x1="-5.08" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
+<junction x="58.42" y="124.46"/>
 <pinref part="D3" gate="A" pin="A"/>
 <pinref part="D4" gate="A" pin="A"/>
 <wire x1="-5.08" y1="144.78" x2="-5.08" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-5.08" y="124.46"/>
+<wire x1="58.42" y1="124.46" x2="58.42" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="50.8" y1="-17.78" x2="50.8" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-10.16" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="L5" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="-"/>
+<wire x1="66.04" y1="-10.16" x2="50.8" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-10.16" x2="43.18" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
@@ -19373,6 +19365,7 @@ or with BAT54S twin (half bridge) Schottky diodes
 <junction x="58.42" y="-10.16"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <junction x="43.18" y="-10.16"/>
+<junction x="66.04" y="-10.16"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -19418,19 +19411,19 @@ or with BAT54S twin (half bridge) Schottky diodes
 <wire x1="-20.32" y1="129.54" x2="-17.78" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN-"/>
 <wire x1="-17.78" y1="129.54" x2="-10.16" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="13.208" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="10.668" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="129.54" x2="13.208" y2="129.54" width="0.1524" layer="91"/>
-<junction x="13.208" y="129.54"/>
+<wire x1="-10.16" y1="129.54" x2="10.668" y2="129.54" width="0.1524" layer="91"/>
+<junction x="10.668" y="129.54"/>
 <junction x="-17.78" y="129.54"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="-"/>
-<wire x1="53.34" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="104.14" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="106.68" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -19449,8 +19442,8 @@ or with BAT54S twin (half bridge) Schottky diodes
 </segment>
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="33.528" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<label x="23.622" y="73.66" size="1.778" layer="95"/>
+<wire x1="33.528" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<label x="20.066" y="73.406" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="33.528" y="76.2"/>
 </segment>
@@ -19464,9 +19457,9 @@ or with BAT54S twin (half bridge) Schottky diodes
 <segment>
 <pinref part="C17" gate="G$1" pin="+"/>
 <wire x1="35.56" y1="66.04" x2="33.528" y2="66.04" width="0.1524" layer="91"/>
-<label x="24.638" y="66.548" size="1.778" layer="95"/>
+<label x="20.066" y="66.802" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="33.528" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.528" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
 <junction x="33.528" y="66.04"/>
 </segment>
 </net>
@@ -19518,11 +19511,12 @@ or with BAT54S twin (half bridge) Schottky diodes
 <label x="53.34" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="22.86" y="144.78" size="1.778" layer="95"/>
+<label x="18.034" y="142.494" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="33.528" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="30.988" y1="144.78" x2="17.272" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<junction x="33.528" y="144.78"/>
+<junction x="30.988" y="144.78"/>
+<wire x1="30.988" y1="144.78" x2="33.528" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VR2_S2" class="0">
@@ -19532,12 +19526,12 @@ or with BAT54S twin (half bridge) Schottky diodes
 <label x="53.34" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="134.62" x2="33.528" y2="134.62" width="0.1524" layer="91"/>
-<label x="22.86" y="134.62" size="1.778" layer="95"/>
+<wire x1="35.56" y1="134.62" x2="30.988" y2="134.62" width="0.1524" layer="91"/>
+<label x="18.034" y="135.128" size="1.778" layer="95"/>
 <pinref part="C20" gate="G$1" pin="+"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="33.528" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
-<junction x="33.528" y="134.62"/>
+<wire x1="30.988" y1="134.62" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
+<junction x="30.988" y="134.62"/>
 </segment>
 </net>
 <net name="VR2_3" class="0">
