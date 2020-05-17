@@ -11,3 +11,6 @@ Designed to complement the audio ADC boards such as the Teensy Audio Board, this
 - 20 & 40dB switched gain mic channel + 0-20dB gain control (overall gain 20-60dB)
 
 Attached board files are in Eagle 9.0 format
+
+Two 'off the shelf' switching regulator modules power the preamp:
+- a +/-15V (often marked DD1718) and a +35 boost regulator based on the XL6007/9 chips. Image files are included, above.
